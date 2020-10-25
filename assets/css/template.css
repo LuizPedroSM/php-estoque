@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+input {
+  border-radius: 5px;
+}
+
+fieldset {
+  padding: 5px;
+}
+
+table th {
+  background-color: #ddd;
+  padding: 5px;
+}
+table td {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+table tr:hover td {
+  background-color: #eee;
+}
+table a {
+  padding: 5px;
+  color: #00f;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border: 2px solid #00f;
+  background-color: #ddd;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: bold;
+}
+table a:hover {
+  text-decoration: underline;
+}
+
+nav ul,
+nav ul li {
+  list-style: none;
+}
+
+input[type="search"] {
+  border: 0;
+  outline: 0;
+  padding: 0 5px;
+  width: 100%;
+  height: 40px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0px 10px;
+}
+
+.header {
+  background-color: #ddd;
+  margin-bottom: 20px;
+}
+.header li {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+}
+.header li a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 0px 10px;
+}
+.header li a:hover {
+  text-decoration: underline;
+  background-color: #eee;
+}
+
+form input[type="text"],
+form select,
+form textarea {
+  width: 100%;
+  height: 40px;
+  font-size: 13px;
+  margin: 5px 0;
+  padding: 0 5px;
+  border: 2px solid #ddd;
+}
+form input[type="submit"] {
+  background-color: #ccc;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.warning {
+  border: 1px solid #f00;
+  background-color: #f55;
+  padding: 10px;
+  font-size: 14px;
+  color: #000;
+  margin: 10px 0px;
+}
